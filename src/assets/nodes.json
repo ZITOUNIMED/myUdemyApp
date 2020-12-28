@@ -1,0 +1,2664 @@
+[
+    {
+       "id":0,
+       "name":"Angular - The Complete Guide (2021 Edition)",
+       "children":[
+          {
+             "id":53,
+             "name":"1. Getting Started",
+             "children":[
+                {
+                   "id":55,
+                   "name":"1. Course Introduction.mp4"
+                },
+                {
+                   "id":56,
+                   "name":"10. What is TypeScript.mp4"
+                },
+                {
+                   "id":57,
+                   "name":"11. A Basic Project Setup using Bootstrap for Styling.mp4"
+                },
+                {
+                   "id":58,
+                   "name":"11.1 project-template.zip"
+                },
+                {
+                   "id":59,
+                   "name":"12. About the Course Code  Code Snapshots.html"
+                },
+                {
+                   "id":60,
+                   "name":"12.1 project-template.zip"
+                },
+                {
+                   "id":61,
+                   "name":"12.2 first-app.zip"
+                },
+                {
+                   "id":62,
+                   "name":"2. What is Angular.mp4"
+                },
+                {
+                   "id":63,
+                   "name":"3. Join our Online Learning Community.html"
+                },
+                {
+                   "id":64,
+                   "name":"4. Angular vs Angular 2 vs Latest Angular Version.mp4"
+                },
+                {
+                   "id":54,
+                   "name":"5. CLI Deep Dive & Troubleshooting.html"
+                },
+                {
+                   "id":65,
+                   "name":"6. Project Setup and First App.mp4"
+                },
+                {
+                   "id":66,
+                   "name":"6.1 file.zip"
+                },
+                {
+                   "id":67,
+                   "name":"7. Editing the First App.mp4"
+                },
+                {
+                   "id":68,
+                   "name":"7.1 first-app.zip"
+                },
+                {
+                   "id":69,
+                   "name":"8. The Course Structure.mp4"
+                },
+                {
+                   "id":70,
+                   "name":"9. How to get the Most out of the Course.mp4"
+                }
+             ]
+          },
+          {
+             "id":71,
+             "name":"10. Course Project - Services & Dependency Injection",
+             "children":[
+                {
+                   "id":72,
+                   "name":"1. Introduction.mp4"
+                },
+                {
+                   "id":73,
+                   "name":"1.1 prj-directives-final.zip"
+                },
+                {
+                   "id":74,
+                   "name":"2. Setting up the Services.mp4"
+                },
+                {
+                   "id":75,
+                   "name":"2.1 prj-directives-final.zip"
+                },
+                {
+                   "id":76,
+                   "name":"3. Managing Recipes in a Recipe Service.mp4"
+                },
+                {
+                   "id":77,
+                   "name":"4. Using a Service for Cross-Component Communication.mp4"
+                },
+                {
+                   "id":78,
+                   "name":"5. Adding the Shopping List Service.mp4"
+                },
+                {
+                   "id":79,
+                   "name":"6. Using Services for Pushing Data from A to B.mp4"
+                },
+                {
+                   "id":80,
+                   "name":"7. Adding Ingredients to Recipes.mp4"
+                },
+                {
+                   "id":81,
+                   "name":"8. Passing Ingredients from Recipes to the Shopping List (via a Service).mp4"
+                },
+                {
+                   "id":82,
+                   "name":"8.1 prj-services-final.zip"
+                }
+             ]
+          },
+          {
+             "id":83,
+             "name":"11. Changing Pages with Routing",
+             "children":[
+                {
+                   "id":84,
+                   "name":"1. Module Introduction.mp4"
+                },
+                {
+                   "id":85,
+                   "name":"1.1 routing-start.zip"
+                },
+                {
+                   "id":86,
+                   "name":"10. Passing Parameters to Routes.mp4"
+                },
+                {
+                   "id":87,
+                   "name":"11. Fetching Route Parameters.mp4"
+                },
+                {
+                   "id":88,
+                   "name":"12. Fetching Route Parameters Reactively.mp4"
+                },
+                {
+                   "id":94,
+                   "name":"13. An Important Note about Route Observables.mp4"
+                },
+                {
+                   "id":95,
+                   "name":"14. Passing Query Parameters and Fragments.mp4"
+                },
+                {
+                   "id":96,
+                   "name":"15. Retrieving Query Parameters and Fragments.mp4"
+                },
+                {
+                   "id":100,
+                   "name":"16. Practicing and some Common Gotchas.mp4"
+                },
+                {
+                   "id":97,
+                   "name":"17. Setting up Child (Nested) Routes.mp4"
+                },
+                {
+                   "id":98,
+                   "name":"18. Using Query Parameters - Practice.mp4"
+                },
+                {
+                   "id":99,
+                   "name":"19. Configuring the Handling of Query Parameters.mp4"
+                },
+                {
+                   "id":102,
+                   "name":"2. Why do we need a Router.mp4"
+                },
+                {
+                   "id":103,
+                   "name":"2.1 routing-start.zip"
+                },
+                {
+                   "id":104,
+                   "name":"20. Redirecting and Wildcard Routes.mp4"
+                },
+                {
+                   "id":105,
+                   "name":"21. Important Redirection Path Matching.html"
+                },
+                {
+                   "id":106,
+                   "name":"22. Outsourcing the Route Configuration.mp4"
+                },
+                {
+                   "id":107,
+                   "name":"23. An Introduction to Guards.mp4"
+                },
+                {
+                   "id":108,
+                   "name":"24. Protecting Routes with canActivate.mp4"
+                },
+                {
+                   "id":109,
+                   "name":"25. Protecting Child (Nested) Routes with canActivateChild.mp4"
+                },
+                {
+                   "id":101,
+                   "name":"26. Using a Fake Auth Service.mp4"
+                },
+                {
+                   "id":110,
+                   "name":"27. Controlling Navigation with canDeactivate.mp4"
+                },
+                {
+                   "id":111,
+                   "name":"28. Passing Static Data to a Route.mp4"
+                },
+                {
+                   "id":112,
+                   "name":"29. Resolving Dynamic Data with the resolve Guard.mp4"
+                },
+                {
+                   "id":113,
+                   "name":"3. Understanding the Example Project.html"
+                },
+                {
+                   "id":114,
+                   "name":"30. Understanding Location Strategies.mp4"
+                },
+                {
+                   "id":115,
+                   "name":"31. Wrap Up.mp4"
+                },
+                {
+                   "id":116,
+                   "name":"31.1 routing-final.zip"
+                },
+                {
+                   "id":117,
+                   "name":"4. Setting up and Loading Routes.mp4"
+                },
+                {
+                   "id":89,
+                   "name":"5. Navigating with Router Links.mp4"
+                },
+                {
+                   "id":90,
+                   "name":"6. Understanding Navigation Paths.mp4"
+                },
+                {
+                   "id":91,
+                   "name":"7. Styling Active Router Links.mp4"
+                },
+                {
+                   "id":92,
+                   "name":"8. Navigating Programmatically.mp4"
+                },
+                {
+                   "id":93,
+                   "name":"9. Using Relative Paths in Programmatic Navigation.mp4"
+                }
+             ]
+          },
+          {
+             "id":118,
+             "name":"12. Course Project - Routing",
+             "children":[
+                {
+                   "id":120,
+                   "name":"1. Planning the General Structure.mp4"
+                },
+                {
+                   "id":121,
+                   "name":"10. Styling Active Recipe Items.mp4"
+                },
+                {
+                   "id":122,
+                   "name":"11. Adding Editing Routes.mp4"
+                },
+                {
+                   "id":123,
+                   "name":"12. Retrieving Route Parameters.mp4"
+                },
+                {
+                   "id":119,
+                   "name":"13. Programmatic Navigation to the Edit Page.mp4"
+                },
+                {
+                   "id":129,
+                   "name":"14. One Note about Route Observables.mp4"
+                },
+                {
+                   "id":130,
+                   "name":"15. Project Cleanup.html"
+                },
+                {
+                   "id":131,
+                   "name":"15.1 prj-routing-final.zip"
+                },
+                {
+                   "id":132,
+                   "name":"2. Setting Up Routes.mp4"
+                },
+                {
+                   "id":133,
+                   "name":"3. Adding Navigation to the App.mp4"
+                },
+                {
+                   "id":134,
+                   "name":"4. Marking Active Routes.mp4"
+                },
+                {
+                   "id":124,
+                   "name":"5. Fixing Page Reload Issues.mp4"
+                },
+                {
+                   "id":125,
+                   "name":"6. Child Routes Challenge.mp4"
+                },
+                {
+                   "id":126,
+                   "name":"7. Adding Child Routing Together.mp4"
+                },
+                {
+                   "id":127,
+                   "name":"8. Configuring Route Parameters.mp4"
+                },
+                {
+                   "id":128,
+                   "name":"9. Passing Dynamic Parameters to Links.mp4"
+                }
+             ]
+          },
+          {
+             "id":135,
+             "name":"13. Understanding Observables",
+             "children":[
+                {
+                   "id":137,
+                   "name":"1. Module Introduction.mp4"
+                },
+                {
+                   "id":138,
+                   "name":"10. Useful Resources & Links.html"
+                },
+                {
+                   "id":139,
+                   "name":"10.1 obs-01-start.zip"
+                },
+                {
+                   "id":140,
+                   "name":"10.2 obs-02-first-custom-observable.zip"
+                },
+                {
+                   "id":141,
+                   "name":"10.3 obs-03-complete-custom-observable.zip"
+                },
+                {
+                   "id":142,
+                   "name":"10.4 obs-04-operators.zip"
+                },
+                {
+                   "id":143,
+                   "name":"10.5 obs-05-finished.zip"
+                },
+                {
+                   "id":144,
+                   "name":"2. Analyzing Angular Observables.mp4"
+                },
+                {
+                   "id":145,
+                   "name":"2.1 obs-01-start.zip"
+                },
+                {
+                   "id":146,
+                   "name":"3. Getting Closer to the Core of Observables.mp4"
+                },
+                {
+                   "id":136,
+                   "name":"4. Building a Custom Observable.mp4"
+                },
+                {
+                   "id":147,
+                   "name":"4.1 obs-03-complete-custom-observable.zip"
+                },
+                {
+                   "id":148,
+                   "name":"5. Errors & Completion.mp4"
+                },
+                {
+                   "id":149,
+                   "name":"6. Observables & You!.mp4"
+                },
+                {
+                   "id":150,
+                   "name":"7. Understanding Operators.mp4"
+                },
+                {
+                   "id":151,
+                   "name":"7.1 obs-04-operators.zip"
+                },
+                {
+                   "id":152,
+                   "name":"8. Subjects.mp4"
+                },
+                {
+                   "id":153,
+                   "name":"9. Wrap Up.mp4"
+                },
+                {
+                   "id":154,
+                   "name":"9.1 obs-05-finished.zip"
+                }
+             ]
+          },
+          {
+             "id":155,
+             "name":"14. Course Project - Observables",
+             "children":[
+                {
+                   "id":156,
+                   "name":"1. Improving the Reactive Service with Observables (Subjects).mp4"
+                },
+                {
+                   "id":157,
+                   "name":"1.1 prj-routing-final.zip"
+                },
+                {
+                   "id":158,
+                   "name":"1.2 prj-obs-01-finished.zip"
+                },
+                {
+                   "id":159,
+                   "name":"2. Changed the Subscription Name.html"
+                }
+             ]
+          },
+          {
+             "id":160,
+             "name":"15. Handling Forms in Angular Apps",
+             "children":[
+                {
+                   "id":161,
+                   "name":"1. Module Introduction.mp4"
+                },
+                {
+                   "id":162,
+                   "name":"10. Built-in Validators & Using HTML5 Validation.html"
+                },
+                {
+                   "id":163,
+                   "name":"11. TD Using the Form State.mp4"
+                },
+                {
+                   "id":164,
+                   "name":"12. TD Outputting Validation Error Messages.mp4"
+                },
+                {
+                   "id":165,
+                   "name":"13. TD Set Default Values with ngModel Property Binding.mp4"
+                },
+                {
+                   "id":171,
+                   "name":"14. TD Using ngModel with Two-Way-Binding.mp4"
+                },
+                {
+                   "id":172,
+                   "name":"15. TD Grouping Form Controls.mp4"
+                },
+                {
+                   "id":173,
+                   "name":"16. TD Handling Radio Buttons.mp4"
+                },
+                {
+                   "id":177,
+                   "name":"17. TD Setting and Patching Form Values.mp4"
+                },
+                {
+                   "id":174,
+                   "name":"18. TD Using Form Data.mp4"
+                },
+                {
+                   "id":175,
+                   "name":"19. TD Resetting Forms.mp4"
+                },
+                {
+                   "id":176,
+                   "name":"19.1 forms-td-final.zip"
+                },
+                {
+                   "id":178,
+                   "name":"2. Why do we Need Angular_s Help.mp4"
+                },
+                {
+                   "id":182,
+                   "name":"20. Practicing Template-Driven Forms.html"
+                },
+                {
+                   "id":183,
+                   "name":"21. Introduction to the Reactive Approach.mp4"
+                },
+                {
+                   "id":184,
+                   "name":"22. Reactive Setup.mp4"
+                },
+                {
+                   "id":185,
+                   "name":"22.1 forms-reactive-start.zip"
+                },
+                {
+                   "id":186,
+                   "name":"23. Reactive Creating a Form in Code.mp4"
+                },
+                {
+                   "id":187,
+                   "name":"24. Reactive Syncing HTML and Form.mp4"
+                },
+                {
+                   "id":188,
+                   "name":"25. Reactive Submitting the Form.mp4"
+                },
+                {
+                   "id":189,
+                   "name":"26. Reactive Adding Validation.mp4"
+                },
+                {
+                   "id":179,
+                   "name":"27. Reactive Getting Access to Controls.mp4"
+                },
+                {
+                   "id":190,
+                   "name":"28. Reactive Grouping Controls.mp4"
+                },
+                {
+                   "id":191,
+                   "name":"29. Fixing a Bug.html"
+                },
+                {
+                   "id":192,
+                   "name":"3. Template-Driven (TD) vs Reactive Approach.mp4"
+                },
+                {
+                   "id":193,
+                   "name":"30. Reactive Arrays of Form Controls (FormArray).mp4"
+                },
+                {
+                   "id":194,
+                   "name":"31. Reactive Creating Custom Validators.mp4"
+                },
+                {
+                   "id":195,
+                   "name":"32. Reactive Using Error Codes.mp4"
+                },
+                {
+                   "id":196,
+                   "name":"33. Reactive Creating a Custom Async Validator.mp4"
+                },
+                {
+                   "id":180,
+                   "name":"34. Reactive Reacting to Status or Value Changes.mp4"
+                },
+                {
+                   "id":197,
+                   "name":"35. Reactive Setting and Patching Values.mp4"
+                },
+                {
+                   "id":198,
+                   "name":"35.1 forms-reactive-final.zip"
+                },
+                {
+                   "id":199,
+                   "name":"36. Practicing Reactive Forms.html"
+                },
+                {
+                   "id":200,
+                   "name":"37. [OPTIONAL] Assignment Solution.mp4"
+                },
+                {
+                   "id":201,
+                   "name":"37.1 forms-reactive-assignment-solution.zip"
+                },
+                {
+                   "id":202,
+                   "name":"4. An Example Form.mp4"
+                },
+                {
+                   "id":181,
+                   "name":"4.1 forms-td-start.zip"
+                },
+                {
+                   "id":166,
+                   "name":"5. TD Creating the Form and Registering the Controls.mp4"
+                },
+                {
+                   "id":167,
+                   "name":"6. TD Submitting and Using the Form.mp4"
+                },
+                {
+                   "id":168,
+                   "name":"7. TD Understanding Form State.mp4"
+                },
+                {
+                   "id":169,
+                   "name":"8. TD Accessing the Form with @ViewChild.mp4"
+                },
+                {
+                   "id":170,
+                   "name":"9. TD Adding Validation to check User Input.mp4"
+                }
+             ]
+          },
+          {
+             "id":203,
+             "name":"16. Course Project - Forms",
+             "children":[
+                {
+                   "id":204,
+                   "name":"1. Introduction.mp4"
+                },
+                {
+                   "id":205,
+                   "name":"1.1 prj-obs-01-finished.zip"
+                },
+                {
+                   "id":206,
+                   "name":"10. Creating the Template for the (Reactive) Recipe Edit Form.mp4"
+                },
+                {
+                   "id":207,
+                   "name":"11. Creating the Form For Editing Recipes.mp4"
+                },
+                {
+                   "id":208,
+                   "name":"12. Syncing HTML with the Form.mp4"
+                },
+                {
+                   "id":214,
+                   "name":"13. Fixing a Bug.html"
+                },
+                {
+                   "id":215,
+                   "name":"14. Adding Ingredient Controls to a Form Array.mp4"
+                },
+                {
+                   "id":216,
+                   "name":"15. Adding new Ingredient Controls.mp4"
+                },
+                {
+                   "id":217,
+                   "name":"16. Validating User Input.mp4"
+                },
+                {
+                   "id":218,
+                   "name":"17. Submitting the Recipe Edit Form.mp4"
+                },
+                {
+                   "id":219,
+                   "name":"18. Adding a Delete and Clear (Cancel) Functionality.mp4"
+                },
+                {
+                   "id":220,
+                   "name":"19. Redirecting the User (after Deleting a Recipe).mp4"
+                },
+                {
+                   "id":221,
+                   "name":"2. TD Adding the Shopping List Form.mp4"
+                },
+                {
+                   "id":222,
+                   "name":"20. Adding an Image Preview.mp4"
+                },
+                {
+                   "id":223,
+                   "name":"21. Providing the Recipe Service Correctly.mp4"
+                },
+                {
+                   "id":224,
+                   "name":"22. Deleting Ingredients and Some Finishing Touches.mp4"
+                },
+                {
+                   "id":225,
+                   "name":"22.1 prj-forms-final.zip"
+                },
+                {
+                   "id":226,
+                   "name":"23. Deleting all Items in a FormArray.html"
+                },
+                {
+                   "id":227,
+                   "name":"3. Adding Validation to the Form.mp4"
+                },
+                {
+                   "id":228,
+                   "name":"4. Allowing the Selection of Items in the List.mp4"
+                },
+                {
+                   "id":209,
+                   "name":"5. Loading the Shopping List Items into the Form.mp4"
+                },
+                {
+                   "id":210,
+                   "name":"6. Updating existing Items.mp4"
+                },
+                {
+                   "id":211,
+                   "name":"7. Resetting the Form.mp4"
+                },
+                {
+                   "id":212,
+                   "name":"8. Allowing the the User to Clear (Cancel) the Form.mp4"
+                },
+                {
+                   "id":213,
+                   "name":"9. Allowing the Deletion of Shopping List Items.mp4"
+                }
+             ]
+          },
+          {
+             "id":229,
+             "name":"17. Using Pipes to Transform Output",
+             "children":[
+                {
+                   "id":230,
+                   "name":"1. Introduction & Why Pipes are Useful.mp4"
+                },
+                {
+                   "id":231,
+                   "name":"10. Understanding the async Pipe.mp4"
+                },
+                {
+                   "id":232,
+                   "name":"10.1 pipes-final.zip"
+                },
+                {
+                   "id":233,
+                   "name":"11. Practicing Pipes.html"
+                },
+                {
+                   "id":234,
+                   "name":"2. Using Pipes.mp4"
+                },
+                {
+                   "id":235,
+                   "name":"2.1 pipes-start.zip"
+                },
+                {
+                   "id":236,
+                   "name":"3. Parametrizing Pipes.mp4"
+                },
+                {
+                   "id":237,
+                   "name":"4. Where to learn more about Pipes.mp4"
+                },
+                {
+                   "id":238,
+                   "name":"5. Chaining Multiple Pipes.mp4"
+                },
+                {
+                   "id":239,
+                   "name":"6. Creating a Custom Pipe.mp4"
+                },
+                {
+                   "id":240,
+                   "name":"7. Parametrizing a Custom Pipe.mp4"
+                },
+                {
+                   "id":241,
+                   "name":"8. Example Creating a Filter Pipe.mp4"
+                },
+                {
+                   "id":242,
+                   "name":"9. Pure and Impure Pipes (or How to fix the Filter Pipe).mp4"
+                }
+             ]
+          },
+          {
+             "id":243,
+             "name":"18. Making Http Requests",
+             "children":[
+                {
+                   "id":244,
+                   "name":"1. A New IDE.mp4"
+                },
+                {
+                   "id":245,
+                   "name":"10. Outputting Posts.mp4"
+                },
+                {
+                   "id":246,
+                   "name":"11. Showing a Loading Indicator.mp4"
+                },
+                {
+                   "id":247,
+                   "name":"11.1 http-04-loading-indicator.zip"
+                },
+                {
+                   "id":248,
+                   "name":"12. Using a Service for Http Requests.mp4"
+                },
+                {
+                   "id":257,
+                   "name":"13. Services & Components Working Together.mp4"
+                },
+                {
+                   "id":258,
+                   "name":"14. Sending a DELETE Request.mp4"
+                },
+                {
+                   "id":259,
+                   "name":"15. Handling Errors.mp4"
+                },
+                {
+                   "id":260,
+                   "name":"16. Using Subjects for Error Handling.mp4"
+                },
+                {
+                   "id":263,
+                   "name":"17. Using the catchError Operator.mp4"
+                },
+                {
+                   "id":264,
+                   "name":"18. Error Handling & UX.mp4"
+                },
+                {
+                   "id":265,
+                   "name":"18.1 http-05-handling-errors.zip"
+                },
+                {
+                   "id":266,
+                   "name":"19. Setting Headers.mp4"
+                },
+                {
+                   "id":267,
+                   "name":"19.1 http-06-headers.zip"
+                },
+                {
+                   "id":268,
+                   "name":"2. Module Introduction.mp4"
+                },
+                {
+                   "id":269,
+                   "name":"2.1 http-01-start.zip"
+                },
+                {
+                   "id":270,
+                   "name":"20. Adding Query Params.mp4"
+                },
+                {
+                   "id":271,
+                   "name":"20.1 http-07-query-params.zip"
+                },
+                {
+                   "id":272,
+                   "name":"21. Observing Different Types of Responses.mp4"
+                },
+                {
+                   "id":273,
+                   "name":"22. Changing the Response Body Type.mp4"
+                },
+                {
+                   "id":274,
+                   "name":"23. Introducing Interceptors.mp4"
+                },
+                {
+                   "id":275,
+                   "name":"24. Manipulating Request Objects.mp4"
+                },
+                {
+                   "id":276,
+                   "name":"25. Response Interceptors.mp4"
+                },
+                {
+                   "id":277,
+                   "name":"25.1 http-08-interceptor.zip"
+                },
+                {
+                   "id":278,
+                   "name":"26. Multiple Interceptors.mp4"
+                },
+                {
+                   "id":279,
+                   "name":"27. Wrap Up.mp4"
+                },
+                {
+                   "id":280,
+                   "name":"27.1 http-09-finished.zip"
+                },
+                {
+                   "id":281,
+                   "name":"28. Useful Resources & Links.html"
+                },
+                {
+                   "id":282,
+                   "name":"28.1 http-08-interceptor.zip"
+                },
+                {
+                   "id":261,
+                   "name":"28.2 http-02-post-requests.zip"
+                },
+                {
+                   "id":283,
+                   "name":"28.3 http-06-headers.zip"
+                },
+                {
+                   "id":284,
+                   "name":"28.4 http-07-query-params.zip"
+                },
+                {
+                   "id":285,
+                   "name":"28.5 http-05-handling-errors.zip"
+                },
+                {
+                   "id":286,
+                   "name":"28.6 http-09-finished.zip"
+                },
+                {
+                   "id":287,
+                   "name":"28.7 http-04-loading-indicator.zip"
+                },
+                {
+                   "id":288,
+                   "name":"28.8 http-03-get-and-transform-data.zip"
+                },
+                {
+                   "id":289,
+                   "name":"28.9 http-01-start.zip"
+                },
+                {
+                   "id":290,
+                   "name":"3. How Does Angular Interact With Backends.mp4"
+                },
+                {
+                   "id":291,
+                   "name":"3.1 Securing JS Code.html"
+                },
+                {
+                   "id":292,
+                   "name":"3.2 Building a REST API.html"
+                },
+                {
+                   "id":293,
+                   "name":"3.3 http-01-start.zip"
+                },
+                {
+                   "id":249,
+                   "name":"4. The Anatomy of a Http Request.mp4"
+                },
+                {
+                   "id":250,
+                   "name":"5. Backend (Firebase) Setup.mp4"
+                },
+                {
+                   "id":251,
+                   "name":"6. Sending a POST Request.mp4"
+                },
+                {
+                   "id":252,
+                   "name":"6.1 http-01-start.zip"
+                },
+                {
+                   "id":262,
+                   "name":"6.2 http-02-post-requests.zip"
+                },
+                {
+                   "id":253,
+                   "name":"7. GETting Data.mp4"
+                },
+                {
+                   "id":254,
+                   "name":"8. Using RxJS Operators to Transform Response Data.mp4"
+                },
+                {
+                   "id":255,
+                   "name":"8.1 http-03-get-and-transform-data.zip"
+                },
+                {
+                   "id":256,
+                   "name":"9. Using Types with the HttpClient.mp4"
+                }
+             ]
+          },
+          {
+             "id":294,
+             "name":"19. Course Project - Http",
+             "children":[
+                {
+                   "id":295,
+                   "name":"1. Module Introduction.mp4"
+                },
+                {
+                   "id":296,
+                   "name":"2. Backend (Firebase) Setup.mp4"
+                },
+                {
+                   "id":297,
+                   "name":"3. Setting Up the DataStorage Service.mp4"
+                },
+                {
+                   "id":298,
+                   "name":"4. Storing Recipes.mp4"
+                },
+                {
+                   "id":299,
+                   "name":"5. Fetching Recipes.mp4"
+                },
+                {
+                   "id":300,
+                   "name":"5.1 prj-http-01-save-and-fetch-recipes.zip"
+                },
+                {
+                   "id":301,
+                   "name":"6. Transforming Response Data.mp4"
+                },
+                {
+                   "id":302,
+                   "name":"7. Resolving Data Before Loading.mp4"
+                },
+                {
+                   "id":303,
+                   "name":"8. Fixing a Bug with the Resolver.mp4"
+                },
+                {
+                   "id":304,
+                   "name":"8.1 prj-http-02-finished.zip"
+                }
+             ]
+          },
+          {
+             "id":1,
+             "name":"2. The Basics",
+             "children":[
+                {
+                   "id":2,
+                   "name":"1. Module Introduction.mp4"
+                },
+                {
+                   "id":3,
+                   "name":"10. Fully Understanding the Component Selector.mp4"
+                },
+                {
+                   "id":4,
+                   "name":"10.1 basics-components.zip"
+                },
+                {
+                   "id":5,
+                   "name":"11. Practicing Components.html"
+                },
+                {
+                   "id":6,
+                   "name":"12. [OPTIONAL] Assignment Solution.mp4"
+                },
+                {
+                   "id":7,
+                   "name":"12.1 basics-assignment-1-solution.zip"
+                },
+                {
+                   "id":13,
+                   "name":"13. What is Databinding.mp4"
+                },
+                {
+                   "id":14,
+                   "name":"14. String Interpolation.mp4"
+                },
+                {
+                   "id":15,
+                   "name":"15. Property Binding.mp4"
+                },
+                {
+                   "id":16,
+                   "name":"16. Property Binding vs String Interpolation.mp4"
+                },
+                {
+                   "id":17,
+                   "name":"17. Event Binding.mp4"
+                },
+                {
+                   "id":18,
+                   "name":"18. Bindable Properties and Events.html"
+                },
+                {
+                   "id":19,
+                   "name":"19. Passing and Using Data with Event Binding.mp4"
+                },
+                {
+                   "id":20,
+                   "name":"2. How an Angular App gets Loaded and Started.mp4"
+                },
+                {
+                   "id":21,
+                   "name":"20. Important FormsModule is Required for Two-Way-Binding!.html"
+                },
+                {
+                   "id":22,
+                   "name":"21. Two-Way-Databinding.mp4"
+                },
+                {
+                   "id":23,
+                   "name":"22. Combining all Forms of Databinding.mp4"
+                },
+                {
+                   "id":24,
+                   "name":"22.1 basics-databinding.zip"
+                },
+                {
+                   "id":25,
+                   "name":"23. Practicing Databinding.html"
+                },
+                {
+                   "id":26,
+                   "name":"24. [OPTIONAL] Assignment Solution.mp4"
+                },
+                {
+                   "id":28,
+                   "name":"24.1 basics-assignment-2-solution.zip"
+                },
+                {
+                   "id":29,
+                   "name":"25. Understanding Directives.mp4"
+                },
+                {
+                   "id":30,
+                   "name":"26. Using ngIf to Output Data Conditionally.mp4"
+                },
+                {
+                   "id":31,
+                   "name":"27. Enhancing ngIf with an Else Condition.mp4"
+                },
+                {
+                   "id":32,
+                   "name":"28. Styling Elements Dynamically with ngStyle.mp4"
+                },
+                {
+                   "id":33,
+                   "name":"29. Applying CSS Classes Dynamically with ngClass.mp4"
+                },
+                {
+                   "id":34,
+                   "name":"3. Components are Important!.mp4"
+                },
+                {
+                   "id":27,
+                   "name":"30. Outputting Lists with ngFor.mp4"
+                },
+                {
+                   "id":35,
+                   "name":"31. Practicing Directives.html"
+                },
+                {
+                   "id":36,
+                   "name":"32. [OPTIONAL] Assignment Solution.mp4"
+                },
+                {
+                   "id":37,
+                   "name":"32.1 basics-assignment-3-solution.zip"
+                },
+                {
+                   "id":38,
+                   "name":"33. Getting the Index when using ngFor.mp4"
+                },
+                {
+                   "id":39,
+                   "name":"33.1 basics-ngfor-addition.zip"
+                },
+                {
+                   "id":40,
+                   "name":"33.2 basics-databinding.zip"
+                },
+                {
+                   "id":41,
+                   "name":"33.3 basics-directives.zip"
+                },
+                {
+                   "id":42,
+                   "name":"33.4 basics-components.zip"
+                },
+                {
+                   "id":43,
+                   "name":"4. Creating a New Component.mp4"
+                },
+                {
+                   "id":8,
+                   "name":"5. Understanding the Role of AppModule and Component Declaration.mp4"
+                },
+                {
+                   "id":9,
+                   "name":"6. Using Custom Components.mp4"
+                },
+                {
+                   "id":10,
+                   "name":"7. Creating Components with the CLI & Nesting Components.mp4"
+                },
+                {
+                   "id":11,
+                   "name":"8. Working with Component Templates.mp4"
+                },
+                {
+                   "id":12,
+                   "name":"9. Working with Component Styles.mp4"
+                }
+             ]
+          },
+          {
+             "id":305,
+             "name":"20. Authentication & Route Protection in Angular",
+             "children":[
+                {
+                   "id":306,
+                   "name":"1. Module Introduction.mp4"
+                },
+                {
+                   "id":307,
+                   "name":"10. Adding a Loading Spinner & Error Handling Logic.mp4"
+                },
+                {
+                   "id":308,
+                   "name":"10.1 auth-03-signup-request.zip"
+                },
+                {
+                   "id":309,
+                   "name":"11. Improving Error Handling.mp4"
+                },
+                {
+                   "id":310,
+                   "name":"12. Sending Login Requests.mp4"
+                },
+                {
+                   "id":317,
+                   "name":"12.1 auth-04-added-login.zip"
+                },
+                {
+                   "id":318,
+                   "name":"13. Login Error Handling.mp4"
+                },
+                {
+                   "id":319,
+                   "name":"14. Creating & Storing the User Data.mp4"
+                },
+                {
+                   "id":320,
+                   "name":"15. Reflecting the Auth State in the UI.mp4"
+                },
+                {
+                   "id":321,
+                   "name":"16. Adding the Token to Outgoing Requests.mp4"
+                },
+                {
+                   "id":322,
+                   "name":"17. Attaching the Token with an Interceptor.mp4"
+                },
+                {
+                   "id":323,
+                   "name":"17.1 auth-05-added-token-to-requests.zip"
+                },
+                {
+                   "id":324,
+                   "name":"18. Adding Logout.mp4"
+                },
+                {
+                   "id":326,
+                   "name":"18.1 auth-06-logout.zip"
+                },
+                {
+                   "id":327,
+                   "name":"19. Adding Auto-Login.mp4"
+                },
+                {
+                   "id":328,
+                   "name":"2. How Authentication Works.mp4"
+                },
+                {
+                   "id":329,
+                   "name":"20. Adding Auto-Logout.mp4"
+                },
+                {
+                   "id":330,
+                   "name":"20.1 auth-07-autologin-autologout.zip"
+                },
+                {
+                   "id":331,
+                   "name":"21. Adding an Auth Guard.mp4"
+                },
+                {
+                   "id":332,
+                   "name":"22. Wrap Up.mp4"
+                },
+                {
+                   "id":333,
+                   "name":"22.1 auth-08-finished.zip"
+                },
+                {
+                   "id":334,
+                   "name":"23. Useful Resources & Links.html"
+                },
+                {
+                   "id":335,
+                   "name":"23.1 auth-01-auth-component.zip"
+                },
+                {
+                   "id":336,
+                   "name":"23.2 auth-05-added-token-to-requests.zip"
+                },
+                {
+                   "id":325,
+                   "name":"23.3 auth-07-autologin-autologout.zip"
+                },
+                {
+                   "id":337,
+                   "name":"23.4 auth-03-signup-request.zip"
+                },
+                {
+                   "id":338,
+                   "name":"23.5 auth-06-logout.zip"
+                },
+                {
+                   "id":339,
+                   "name":"23.6 auth-02-auth-form.zip"
+                },
+                {
+                   "id":340,
+                   "name":"23.7 auth-08-finished.zip"
+                },
+                {
+                   "id":341,
+                   "name":"23.8 auth-04-added-login.zip"
+                },
+                {
+                   "id":342,
+                   "name":"3. Adding the Auth Page.mp4"
+                },
+                {
+                   "id":343,
+                   "name":"3.1 auth-01-auth-component.zip"
+                },
+                {
+                   "id":344,
+                   "name":"4. Switching Between Auth Modes.mp4"
+                },
+                {
+                   "id":311,
+                   "name":"5. Handling Form Input.mp4"
+                },
+                {
+                   "id":312,
+                   "name":"5.1 auth-02-auth-form.zip"
+                },
+                {
+                   "id":313,
+                   "name":"6. Preparing the Backend.mp4"
+                },
+                {
+                   "id":314,
+                   "name":"7. Make sure you got Recipes in your backend!.html"
+                },
+                {
+                   "id":315,
+                   "name":"8. Preparing the Signup Request.mp4"
+                },
+                {
+                   "id":316,
+                   "name":"9. Sending the Signup Request.mp4"
+                }
+             ]
+          },
+          {
+             "id":345,
+             "name":"21. Dynamic Components",
+             "children":[
+                {
+                   "id":346,
+                   "name":"1. Module Introduction.mp4"
+                },
+                {
+                   "id":347,
+                   "name":"10. Useful Resources & Links.html"
+                },
+                {
+                   "id":348,
+                   "name":"10.1 dyn-cmp-finished.zip"
+                },
+                {
+                   "id":349,
+                   "name":"2. Adding an Alert Modal Component.mp4"
+                },
+                {
+                   "id":350,
+                   "name":"3. Understanding the Different Approaches.mp4"
+                },
+                {
+                   "id":351,
+                   "name":"4. Using ngIf.mp4"
+                },
+                {
+                   "id":352,
+                   "name":"5. Preparing Programmatic Creation.mp4"
+                },
+                {
+                   "id":353,
+                   "name":"6. Creating a Component Programmatically.mp4"
+                },
+                {
+                   "id":354,
+                   "name":"7. Understanding entryComponents.mp4"
+                },
+                {
+                   "id":355,
+                   "name":"8. Data Binding & Event Binding.mp4"
+                },
+                {
+                   "id":356,
+                   "name":"9. Wrap Up.mp4"
+                }
+             ]
+          },
+          {
+             "id":357,
+             "name":"22. Angular Modules & Optimizing Angular Apps",
+             "children":[
+                {
+                   "id":358,
+                   "name":"1. Module Introduction.mp4"
+                },
+                {
+                   "id":359,
+                   "name":"10. Understanding the Core Module.mp4"
+                },
+                {
+                   "id":360,
+                   "name":"10.1 opt-mod-04-core-module.zip"
+                },
+                {
+                   "id":361,
+                   "name":"11. Adding an Auth Feature Module.mp4"
+                },
+                {
+                   "id":362,
+                   "name":"12. Understanding Lazy Loading.mp4"
+                },
+                {
+                   "id":370,
+                   "name":"13. Implementing Lazy Loading.mp4"
+                },
+                {
+                   "id":371,
+                   "name":"13.1 opt-mod-05-lazy-loading.zip"
+                },
+                {
+                   "id":372,
+                   "name":"14. More Lazy Loading.mp4"
+                },
+                {
+                   "id":373,
+                   "name":"15. Preloading Lazy-Loaded Code.mp4"
+                },
+                {
+                   "id":374,
+                   "name":"16. Modules & Services.mp4"
+                },
+                {
+                   "id":375,
+                   "name":"17. Loading Services Differently.mp4"
+                },
+                {
+                   "id":376,
+                   "name":"18. Ahead-of-Time Compilation.mp4"
+                },
+                {
+                   "id":377,
+                   "name":"19. Wrap Up.mp4"
+                },
+                {
+                   "id":378,
+                   "name":"19.1 opt-mod-06-finished.zip"
+                },
+                {
+                   "id":379,
+                   "name":"2. What are Modules.mp4"
+                },
+                {
+                   "id":380,
+                   "name":"20. Useful Resources & Links.html"
+                },
+                {
+                   "id":381,
+                   "name":"20.1 opt-mod-04-core-module.zip"
+                },
+                {
+                   "id":382,
+                   "name":"20.2 opt-mod-02-routing-module.zip"
+                },
+                {
+                   "id":383,
+                   "name":"20.3 opt-mod-03-shared-module.zip"
+                },
+                {
+                   "id":384,
+                   "name":"20.4 opt-mod-01-feature-module.zip"
+                },
+                {
+                   "id":385,
+                   "name":"20.5 opt-mod-05-lazy-loading.zip"
+                },
+                {
+                   "id":386,
+                   "name":"20.6 opt-mod-06-finished.zip"
+                },
+                {
+                   "id":387,
+                   "name":"3. Analyzing the AppModule.mp4"
+                },
+                {
+                   "id":388,
+                   "name":"4. Getting Started with Feature Modules.mp4"
+                },
+                {
+                   "id":389,
+                   "name":"4.1 opt-mod-01-feature-module.zip"
+                },
+                {
+                   "id":363,
+                   "name":"5. Splitting Modules Correctly.mp4"
+                },
+                {
+                   "id":364,
+                   "name":"6. Adding Routes to Feature Modules.mp4"
+                },
+                {
+                   "id":365,
+                   "name":"6.1 opt-mod-02-routing-module.zip"
+                },
+                {
+                   "id":366,
+                   "name":"7. Component Declarations.mp4"
+                },
+                {
+                   "id":367,
+                   "name":"8. The ShoppingList Feature Module.mp4"
+                },
+                {
+                   "id":368,
+                   "name":"9. Understanding Shared Modules.mp4"
+                },
+                {
+                   "id":369,
+                   "name":"9.1 opt-mod-03-shared-module.zip"
+                }
+             ]
+          },
+          {
+             "id":390,
+             "name":"23. Deploying an Angular App",
+             "children":[
+                {
+                   "id":391,
+                   "name":"1. Module Introduction.mp4"
+                },
+                {
+                   "id":392,
+                   "name":"2. Deployment Preparation & Steps.mp4"
+                },
+                {
+                   "id":393,
+                   "name":"3. Using Environment Variables.mp4"
+                },
+                {
+                   "id":394,
+                   "name":"4. Deployment Example Firebase Hosting.mp4"
+                },
+                {
+                   "id":395,
+                   "name":"4.1 deployment-finished.zip"
+                },
+                {
+                   "id":396,
+                   "name":"5. Server Routing vs Browser Routing.html"
+                },
+                {
+                   "id":397,
+                   "name":"5.1 deployment-finished.zip"
+                }
+             ]
+          },
+          {
+             "id":398,
+             "name":"24. Bonus Working with NgRx in our Project",
+             "children":[
+                {
+                   "id":399,
+                   "name":"1. Module Introduction.mp4"
+                },
+                {
+                   "id":400,
+                   "name":"10. Multiple Actions.mp4"
+                },
+                {
+                   "id":401,
+                   "name":"10.1 ngrx-03-added-actions.zip"
+                },
+                {
+                   "id":402,
+                   "name":"11. Preparing Update & Delete Actions.mp4"
+                },
+                {
+                   "id":403,
+                   "name":"12. Updating & Deleting Ingredients.mp4"
+                },
+                {
+                   "id":411,
+                   "name":"13. Expanding the State.mp4"
+                },
+                {
+                   "id":412,
+                   "name":"14. Managing More State via NgRx.mp4"
+                },
+                {
+                   "id":413,
+                   "name":"14.1 ngrx-04-finished-shopping-list.zip"
+                },
+                {
+                   "id":414,
+                   "name":"15. Removing Redundant Component State Management.mp4"
+                },
+                {
+                   "id":415,
+                   "name":"16. First Summary & Clean Up.mp4"
+                },
+                {
+                   "id":416,
+                   "name":"17. One Root State.mp4"
+                },
+                {
+                   "id":417,
+                   "name":"18. Setting Up Auth Reducer & Actions.mp4"
+                },
+                {
+                   "id":418,
+                   "name":"19. Dispatching Auth Actions.mp4"
+                },
+                {
+                   "id":422,
+                   "name":"2. What is Application State.mp4"
+                },
+                {
+                   "id":423,
+                   "name":"20. Auth Finished (For Now...).mp4"
+                },
+                {
+                   "id":424,
+                   "name":"20.1 ngrx-05-auth-without-effects.zip"
+                },
+                {
+                   "id":425,
+                   "name":"21. And Important Note on Actions.mp4"
+                },
+                {
+                   "id":426,
+                   "name":"22. Exploring NgRx Effects.mp4"
+                },
+                {
+                   "id":427,
+                   "name":"23. Defining the First Effect.mp4"
+                },
+                {
+                   "id":428,
+                   "name":"24. Effects & Error Handling.mp4"
+                },
+                {
+                   "id":429,
+                   "name":"25. Login via NgRx Effects.mp4"
+                },
+                {
+                   "id":430,
+                   "name":"26. Managing UI State in NgRx.mp4"
+                },
+                {
+                   "id":431,
+                   "name":"27. Finishing the Login Effect.mp4"
+                },
+                {
+                   "id":432,
+                   "name":"27.1 ngrx-06-login-effect.zip"
+                },
+                {
+                   "id":433,
+                   "name":"28. Preparing Other Auth Actions.mp4"
+                },
+                {
+                   "id":434,
+                   "name":"29. Adding Signup.mp4"
+                },
+                {
+                   "id":435,
+                   "name":"3. What is NgRx.mp4"
+                },
+                {
+                   "id":436,
+                   "name":"30. Further Auth Effects.mp4"
+                },
+                {
+                   "id":437,
+                   "name":"31. Adding Auto-Login with NgRx.mp4"
+                },
+                {
+                   "id":438,
+                   "name":"32. Adding Auto-Logout.mp4"
+                },
+                {
+                   "id":439,
+                   "name":"32.1 ngrx-07-localstorage-effects.zip"
+                },
+                {
+                   "id":440,
+                   "name":"33. Finishing the Auth Effects.mp4"
+                },
+                {
+                   "id":441,
+                   "name":"33.1 ngrx-08-auth-finished.zip"
+                },
+                {
+                   "id":442,
+                   "name":"34. Using the Store Devtools.mp4"
+                },
+                {
+                   "id":443,
+                   "name":"35. The Router Store.mp4"
+                },
+                {
+                   "id":444,
+                   "name":"35.1 ngrx-09-devtools-and-routing.zip"
+                },
+                {
+                   "id":445,
+                   "name":"36. Getting Started with NgRx for Recipes.mp4"
+                },
+                {
+                   "id":446,
+                   "name":"37. Fetching Recipe Detail Data.mp4"
+                },
+                {
+                   "id":447,
+                   "name":"38. Fetching Recipes & Using the Resolver.mp4"
+                },
+                {
+                   "id":419,
+                   "name":"38.1 ngrx-10-fetch-recipes-effect.zip"
+                },
+                {
+                   "id":448,
+                   "name":"39. Fixing the Auth Redirect.mp4"
+                },
+                {
+                   "id":449,
+                   "name":"4. Getting Started with Reducers.mp4"
+                },
+                {
+                   "id":450,
+                   "name":"40. Update, Delete and Add Recipes.mp4"
+                },
+                {
+                   "id":420,
+                   "name":"41. Storing Recipes via Effects.mp4"
+                },
+                {
+                   "id":451,
+                   "name":"41.1 ngrx-11-recipe-crud.zip"
+                },
+                {
+                   "id":452,
+                   "name":"42. Cleanup Work.mp4"
+                },
+                {
+                   "id":453,
+                   "name":"43. Wrap Up.mp4"
+                },
+                {
+                   "id":454,
+                   "name":"43.1 ngrx-12-finished.zip"
+                },
+                {
+                   "id":455,
+                   "name":"44. Alternative NgRx Syntax.html"
+                },
+                {
+                   "id":421,
+                   "name":"44.1 ngrx-create-functions-syntax.zip"
+                },
+                {
+                   "id":456,
+                   "name":"45. Useful Resources & Links.html"
+                },
+                {
+                   "id":457,
+                   "name":"45.1 ngrx-05-auth-without-effects.zip"
+                },
+                {
+                   "id":458,
+                   "name":"45.10 ngrx-09-devtools-and-routing.zip"
+                },
+                {
+                   "id":459,
+                   "name":"45.11 ngrx-10-fetch-recipes-effect.zip"
+                },
+                {
+                   "id":460,
+                   "name":"45.12 ngrx-11-recipe-crud.zip"
+                },
+                {
+                   "id":461,
+                   "name":"45.2 ngrx-04-finished-shopping-list.zip"
+                },
+                {
+                   "id":462,
+                   "name":"45.3 ngrx-02-added-store.zip"
+                },
+                {
+                   "id":463,
+                   "name":"45.4 ngrx-06-login-effect.zip"
+                },
+                {
+                   "id":464,
+                   "name":"45.5 ngrx-01-first-reducer.zip"
+                },
+                {
+                   "id":465,
+                   "name":"45.6 ngrx-03-added-actions.zip"
+                },
+                {
+                   "id":466,
+                   "name":"45.7 ngrx-07-localstorage-effects.zip"
+                },
+                {
+                   "id":467,
+                   "name":"45.8 ngrx-08-auth-finished.zip"
+                },
+                {
+                   "id":468,
+                   "name":"45.9 ngrx-12-finished.zip"
+                },
+                {
+                   "id":404,
+                   "name":"5. Adding Logic to the Reducer.mp4"
+                },
+                {
+                   "id":405,
+                   "name":"5.1 ngrx-01-first-reducer.zip"
+                },
+                {
+                   "id":406,
+                   "name":"6. Understanding & Adding Actions.mp4"
+                },
+                {
+                   "id":407,
+                   "name":"7. Setting Up the NgRx Store.mp4"
+                },
+                {
+                   "id":408,
+                   "name":"7.1 ngrx-02-added-store.zip"
+                },
+                {
+                   "id":409,
+                   "name":"8. Selecting State.mp4"
+                },
+                {
+                   "id":410,
+                   "name":"9. Dispatching Actions.mp4"
+                }
+             ]
+          },
+          {
+             "id":469,
+             "name":"25. Bonus Angular Universal",
+             "children":[
+                {
+                   "id":470,
+                   "name":"1. Module Introduction.mp4"
+                },
+                {
+                   "id":471,
+                   "name":"1.1 ng-universal-01-start.zip"
+                },
+                {
+                   "id":472,
+                   "name":"10. Adding a Server-Side Build Workflow.mp4"
+                },
+                {
+                   "id":473,
+                   "name":"11. Adding a NodeJS Server.mp4"
+                },
+                {
+                   "id":474,
+                   "name":"12. Pre-Rendering the App on the Server.mp4"
+                },
+                {
+                   "id":482,
+                   "name":"13. Next Steps.mp4"
+                },
+                {
+                   "id":483,
+                   "name":"14. Angular Universal Gotchas.html"
+                },
+                {
+                   "id":484,
+                   "name":"2. Angular Universal & ModuleMapLoader.html"
+                },
+                {
+                   "id":485,
+                   "name":"3. Adding Angular Universal.mp4"
+                },
+                {
+                   "id":486,
+                   "name":"3.1 ng-universal-02-finished.zip"
+                },
+                {
+                   "id":487,
+                   "name":"4. Adding Angular Universal with NestJS.mp4"
+                },
+                {
+                   "id":475,
+                   "name":"4.1 Learn more about NestJS.html"
+                },
+                {
+                   "id":476,
+                   "name":"4.2 ng-universal-03-nestjs.zip"
+                },
+                {
+                   "id":477,
+                   "name":"5. Deploying Universal Apps.html"
+                },
+                {
+                   "id":478,
+                   "name":"6. Important Remaining Lectures.html"
+                },
+                {
+                   "id":479,
+                   "name":"7. Module Introduction.mp4"
+                },
+                {
+                   "id":480,
+                   "name":"8. Getting Started with Angular Universal.mp4"
+                },
+                {
+                   "id":481,
+                   "name":"9. Working on the App Module.mp4"
+                }
+             ]
+          },
+          {
+             "id":488,
+             "name":"26. Angular Animations",
+             "children":[
+                {
+                   "id":489,
+                   "name":"1. Making Animations Work with Angular 4+.html"
+                },
+                {
+                   "id":490,
+                   "name":"10. Using Keyframes for Animations.mp4"
+                },
+                {
+                   "id":491,
+                   "name":"11. Grouping Transitions.mp4"
+                },
+                {
+                   "id":492,
+                   "name":"12. Using Animation Callbacks.mp4"
+                },
+                {
+                   "id":493,
+                   "name":"12.1 animations-finished.zip"
+                },
+                {
+                   "id":494,
+                   "name":"2. Introduction.mp4"
+                },
+                {
+                   "id":495,
+                   "name":"3. Setting up the Starting Project.mp4"
+                },
+                {
+                   "id":496,
+                   "name":"3.1 animations-start.zip"
+                },
+                {
+                   "id":497,
+                   "name":"4. Animations Triggers and State.mp4"
+                },
+                {
+                   "id":498,
+                   "name":"5. Switching between States.mp4"
+                },
+                {
+                   "id":499,
+                   "name":"6. Transitions.mp4"
+                },
+                {
+                   "id":500,
+                   "name":"7. Advanced Transitions.mp4"
+                },
+                {
+                   "id":501,
+                   "name":"8. Transition Phases.mp4"
+                },
+                {
+                   "id":502,
+                   "name":"9. The void State.mp4"
+                }
+             ]
+          },
+          {
+             "id":44,
+             "name":"27. Adding Offline Capabilities with Service Workers",
+             "children":[
+                {
+                   "id":45,
+                   "name":"1. Module Introduction.mp4"
+                },
+                {
+                   "id":46,
+                   "name":"1.1 ng-pwa-01-start.zip"
+                },
+                {
+                   "id":47,
+                   "name":"2. Adding Service Workers.mp4"
+                },
+                {
+                   "id":48,
+                   "name":"3. Caching Assets for Offline Use.mp4"
+                },
+                {
+                   "id":49,
+                   "name":"4. Caching Dynamic Assets & URLs.mp4"
+                },
+                {
+                   "id":50,
+                   "name":"4.1 ng-pwa-02-finished.zip"
+                },
+                {
+                   "id":51,
+                   "name":"5. Further Links & Resources.html"
+                },
+                {
+                   "id":52,
+                   "name":"5.1 ng-pwa-02-finished.zip"
+                }
+             ]
+          },
+          {
+             "id":503,
+             "name":"28. A Basic Introduction to Unit Testing in Angular Apps",
+             "children":[
+                {
+                   "id":504,
+                   "name":"1. About this Section.html"
+                },
+                {
+                   "id":505,
+                   "name":"10. Isolated vs Non-Isolated Tests.mp4"
+                },
+                {
+                   "id":506,
+                   "name":"11. Further Resources & Where to Go Next.html"
+                },
+                {
+                   "id":507,
+                   "name":"11.1 testing-final.zip"
+                },
+                {
+                   "id":508,
+                   "name":"2. Introduction.mp4"
+                },
+                {
+                   "id":509,
+                   "name":"3. Why Unit Tests.mp4"
+                },
+                {
+                   "id":510,
+                   "name":"4. Analyzing the Testing Setup (as created by the CLI).mp4"
+                },
+                {
+                   "id":511,
+                   "name":"5. Running Tests (with the CLI).mp4"
+                },
+                {
+                   "id":512,
+                   "name":"6. Adding a Component and some fitting Tests.mp4"
+                },
+                {
+                   "id":513,
+                   "name":"7. Testing Dependencies Components and Services.mp4"
+                },
+                {
+                   "id":514,
+                   "name":"8. Simulating Async Tasks.mp4"
+                },
+                {
+                   "id":515,
+                   "name":"9. Using fakeAsync and tick.mp4"
+                }
+             ]
+          },
+          {
+             "id":516,
+             "name":"29. Angular as a Platform & Closer Look at the CLI",
+             "children":[
+                {
+                   "id":517,
+                   "name":"1. Module Introduction.mp4"
+                },
+                {
+                   "id":518,
+                   "name":"10. Smooth Updating of Projects with ng update.mp4"
+                },
+                {
+                   "id":519,
+                   "name":"11. Simplified Deployment with ng deploy.mp4"
+                },
+                {
+                   "id":520,
+                   "name":"12. Understanding Differential Loading.mp4"
+                },
+                {
+                   "id":526,
+                   "name":"13. Managing Multiple Projects in One Folder.mp4"
+                },
+                {
+                   "id":527,
+                   "name":"14. Angular Libraries - An Introduction.mp4"
+                },
+                {
+                   "id":528,
+                   "name":"15. Wrap Up.mp4"
+                },
+                {
+                   "id":529,
+                   "name":"2. A Closer Look at ng new.mp4"
+                },
+                {
+                   "id":530,
+                   "name":"3. IDE & Project Setup.mp4"
+                },
+                {
+                   "id":531,
+                   "name":"4. Understanding the Config Files.mp4"
+                },
+                {
+                   "id":532,
+                   "name":"4.1 Getting Started with Git.html"
+                },
+                {
+                   "id":521,
+                   "name":"5. Important CLI Commands.mp4"
+                },
+                {
+                   "id":522,
+                   "name":"6. The angular.json File - A Closer Look.mp4"
+                },
+                {
+                   "id":523,
+                   "name":"7. Angular Schematics - An Introduction.mp4"
+                },
+                {
+                   "id":524,
+                   "name":"8. The ng add Command.mp4"
+                },
+                {
+                   "id":525,
+                   "name":"9. Using Custom ng generate Schematics.mp4"
+                }
+             ]
+          },
+          {
+             "id":533,
+             "name":"3. Course Project - The Basics",
+             "children":[
+                {
+                   "id":534,
+                   "name":"1. Project Introduction.mp4"
+                },
+                {
+                   "id":535,
+                   "name":"10. Adding Content to the Recipes Components.mp4"
+                },
+                {
+                   "id":536,
+                   "name":"11. Outputting a List of Recipes with ngFor.mp4"
+                },
+                {
+                   "id":537,
+                   "name":"12. Displaying Recipe Details.mp4"
+                },
+                {
+                   "id":552,
+                   "name":"13. Working on the ShoppingListComponent.mp4"
+                },
+                {
+                   "id":543,
+                   "name":"14. Creating an Ingredient Model.mp4"
+                },
+                {
+                   "id":544,
+                   "name":"15. Creating and Outputting the Shopping List.mp4"
+                },
+                {
+                   "id":545,
+                   "name":"16. Adding a Shopping List Edit Section.mp4"
+                },
+                {
+                   "id":546,
+                   "name":"17. Wrap Up & Next Steps.mp4"
+                },
+                {
+                   "id":547,
+                   "name":"17.1 prj-basics-final.zip"
+                },
+                {
+                   "id":548,
+                   "name":"2. Planning the App.mp4"
+                },
+                {
+                   "id":549,
+                   "name":"3. Installing Bootstrap Correctly.html"
+                },
+                {
+                   "id":550,
+                   "name":"4. Setting up the Application.mp4"
+                },
+                {
+                   "id":551,
+                   "name":"4.1 prj-start.zip"
+                },
+                {
+                   "id":538,
+                   "name":"5. Creating the Components.mp4"
+                },
+                {
+                   "id":539,
+                   "name":"6. Using the Components.mp4"
+                },
+                {
+                   "id":540,
+                   "name":"7. Adding a Navigation Bar.mp4"
+                },
+                {
+                   "id":541,
+                   "name":"8. Alternative Non-Collapsable Navigation Bar.html"
+                },
+                {
+                   "id":542,
+                   "name":"9. Creating a Recipe Model.mp4"
+                }
+             ]
+          },
+          {
+             "id":553,
+             "name":"30. Angular Changes & New Features",
+             "children":[
+                {
+                   "id":554,
+                   "name":"1. A First Look At Angular Elements.mp4"
+                },
+                {
+                   "id":555,
+                   "name":"2. What_s New & How to Update.html"
+                }
+             ]
+          },
+          {
+             "id":556,
+             "name":"31. Course Roundup",
+             "children":[
+                {
+                   "id":557,
+                   "name":"1. Course Roundup.mp4"
+                },
+                {
+                   "id":558,
+                   "name":"2. Bonus More Content!.html"
+                }
+             ]
+          },
+          {
+             "id":559,
+             "name":"32. Bonus TypeScript Introduction (for Angular 2 Usage)",
+             "children":[
+                {
+                   "id":560,
+                   "name":"1. Introduction.mp4"
+                },
+                {
+                   "id":561,
+                   "name":"1.1 typescript.zip"
+                },
+                {
+                   "id":562,
+                   "name":"1.2 How to learn TypeScript.pdf"
+                },
+                {
+                   "id":563,
+                   "name":"2. Using Types.mp4"
+                },
+                {
+                   "id":564,
+                   "name":"3. Classes.mp4"
+                },
+                {
+                   "id":565,
+                   "name":"4. Interfaces.mp4"
+                },
+                {
+                   "id":566,
+                   "name":"5. Generics.mp4"
+                },
+                {
+                   "id":567,
+                   "name":"6. Wrap up & Modules.mp4"
+                },
+                {
+                   "id":568,
+                   "name":"7. Deep dive into TypeScript.html"
+                }
+             ]
+          },
+          {
+             "id":569,
+             "name":"4. Debugging",
+             "children":[
+                {
+                   "id":570,
+                   "name":"1. Understanding Angular Error Messages.mp4"
+                },
+                {
+                   "id":571,
+                   "name":"1.1 debugging.zip"
+                },
+                {
+                   "id":572,
+                   "name":"2. Debugging Code in the Browser Using Sourcemaps.mp4"
+                },
+                {
+                   "id":573,
+                   "name":"3. Using Augury to Dive into Angular Apps.mp4"
+                },
+                {
+                   "id":574,
+                   "name":"3.1 debugging.zip"
+                }
+             ]
+          },
+          {
+             "id":575,
+             "name":"5. Components & Databinding Deep Dive",
+             "children":[
+                {
+                   "id":576,
+                   "name":"1. Module Introduction.mp4"
+                },
+                {
+                   "id":577,
+                   "name":"1.1 cmp-databinding-start.zip"
+                },
+                {
+                   "id":578,
+                   "name":"10. More on View Encapsulation.mp4"
+                },
+                {
+                   "id":579,
+                   "name":"11. Using Local References in Templates.mp4"
+                },
+                {
+                   "id":580,
+                   "name":"12. @ViewChild() in Angular 8+.html"
+                },
+                {
+                   "id":589,
+                   "name":"13. Getting Access to the Template & DOM with @ViewChild.mp4"
+                },
+                {
+                   "id":586,
+                   "name":"14. Projecting Content into Components with ng-content.mp4"
+                },
+                {
+                   "id":587,
+                   "name":"15. Understanding the Component Lifecycle.mp4"
+                },
+                {
+                   "id":588,
+                   "name":"15.1 lifecycle.pdf"
+                },
+                {
+                   "id":590,
+                   "name":"16. Seeing Lifecycle Hooks in Action.mp4"
+                },
+                {
+                   "id":592,
+                   "name":"17. Lifecycle Hooks and Template Access.mp4"
+                },
+                {
+                   "id":593,
+                   "name":"18. @ContentChild() in Angular 8+.html"
+                },
+                {
+                   "id":594,
+                   "name":"19. Getting Access to ng-content with @ContentChild.mp4"
+                },
+                {
+                   "id":595,
+                   "name":"2. Splitting Apps into Components.mp4"
+                },
+                {
+                   "id":596,
+                   "name":"20. Wrap Up.mp4"
+                },
+                {
+                   "id":597,
+                   "name":"20.1 cmp-databinding-final.zip"
+                },
+                {
+                   "id":598,
+                   "name":"21. Practicing Property & Event Binding and View Encapsulation.html"
+                },
+                {
+                   "id":599,
+                   "name":"22. [OPTIONAL] Assignment Solution.mp4"
+                },
+                {
+                   "id":600,
+                   "name":"22.1 cmp-databinding-assignment-solution.zip"
+                },
+                {
+                   "id":601,
+                   "name":"3. Property & Event Binding Overview.mp4"
+                },
+                {
+                   "id":591,
+                   "name":"4. Binding to Custom Properties.mp4"
+                },
+                {
+                   "id":581,
+                   "name":"5. Assigning an Alias to Custom Properties.mp4"
+                },
+                {
+                   "id":582,
+                   "name":"6. Binding to Custom Events.mp4"
+                },
+                {
+                   "id":583,
+                   "name":"7. Assigning an Alias to Custom Events.mp4"
+                },
+                {
+                   "id":584,
+                   "name":"8. Custom Property and Event Binding Summary.mp4"
+                },
+                {
+                   "id":585,
+                   "name":"9. Understanding View Encapsulation.mp4"
+                }
+             ]
+          },
+          {
+             "id":602,
+             "name":"6. Course Project - Components & Databinding",
+             "children":[
+                {
+                   "id":603,
+                   "name":"1. Introduction.mp4"
+                },
+                {
+                   "id":604,
+                   "name":"1.1 prj-basics-final.zip"
+                },
+                {
+                   "id":605,
+                   "name":"2. Adding Navigation with Event Binding and ngIf.mp4"
+                },
+                {
+                   "id":606,
+                   "name":"3. Passing Recipe Data with Property Binding.mp4"
+                },
+                {
+                   "id":607,
+                   "name":"4. Passing Data with Event and Property Binding (Combined).mp4"
+                },
+                {
+                   "id":608,
+                   "name":"5. Make sure you have FormsModule added!.html"
+                },
+                {
+                   "id":609,
+                   "name":"6. Allowing the User to Add Ingredients to the Shopping List.mp4"
+                },
+                {
+                   "id":610,
+                   "name":"6.1 prj-cmp-databinding-final.zip"
+                }
+             ]
+          },
+          {
+             "id":611,
+             "name":"7. Directives Deep Dive",
+             "children":[
+                {
+                   "id":612,
+                   "name":"1. Module Introduction.mp4"
+                },
+                {
+                   "id":613,
+                   "name":"1.1 directives-start.zip"
+                },
+                {
+                   "id":614,
+                   "name":"10. What Happens behind the Scenes on Structural Directives.mp4"
+                },
+                {
+                   "id":615,
+                   "name":"11. Building a Structural Directive.mp4"
+                },
+                {
+                   "id":616,
+                   "name":"12. Understanding ngSwitch.mp4"
+                },
+                {
+                   "id":617,
+                   "name":"12.1 directives-final.zip"
+                },
+                {
+                   "id":618,
+                   "name":"2. ngFor and ngIf Recap.mp4"
+                },
+                {
+                   "id":619,
+                   "name":"2.1 directives-start.zip"
+                },
+                {
+                   "id":620,
+                   "name":"3. ngClass and ngStyle Recap.mp4"
+                },
+                {
+                   "id":621,
+                   "name":"4. Creating a Basic Attribute Directive.mp4"
+                },
+                {
+                   "id":622,
+                   "name":"5. Using the Renderer to build a Better Attribute Directive.mp4"
+                },
+                {
+                   "id":623,
+                   "name":"6. More about the Renderer.html"
+                },
+                {
+                   "id":624,
+                   "name":"7. Using HostListener to Listen to Host Events.mp4"
+                },
+                {
+                   "id":625,
+                   "name":"8. Using HostBinding to Bind to Host Properties.mp4"
+                },
+                {
+                   "id":626,
+                   "name":"9. Binding to Directive Properties.mp4"
+                }
+             ]
+          },
+          {
+             "id":627,
+             "name":"8. Course Project - Directives",
+             "children":[
+                {
+                   "id":628,
+                   "name":"1. Building and Using a Dropdown Directive.mp4"
+                },
+                {
+                   "id":629,
+                   "name":"1.1 prj-directives-final.zip"
+                },
+                {
+                   "id":630,
+                   "name":"2. Closing the Dropdown From Anywhere.html"
+                }
+             ]
+          },
+          {
+             "id":631,
+             "name":"9. Using Services & Dependency Injection",
+             "children":[
+                {
+                   "id":632,
+                   "name":"1. Module Introduction.mp4"
+                },
+                {
+                   "id":633,
+                   "name":"1.1 services-start.zip"
+                },
+                {
+                   "id":634,
+                   "name":"10. Services in Angular 6+.html"
+                },
+                {
+                   "id":635,
+                   "name":"10.1 services-final.zip"
+                },
+                {
+                   "id":636,
+                   "name":"11. Practicing Services.html"
+                },
+                {
+                   "id":637,
+                   "name":"12. [OPTIONAL] Assignment Solution.mp4"
+                },
+                {
+                   "id":638,
+                   "name":"12.1 services-assignment-solution.zip"
+                },
+                {
+                   "id":639,
+                   "name":"2. Why would you Need Services.mp4"
+                },
+                {
+                   "id":640,
+                   "name":"2.1 services-start.zip"
+                },
+                {
+                   "id":641,
+                   "name":"3. Creating a Logging Service.mp4"
+                },
+                {
+                   "id":642,
+                   "name":"4. Injecting the Logging Service into Components.mp4"
+                },
+                {
+                   "id":643,
+                   "name":"5. Creating a Data Service.mp4"
+                },
+                {
+                   "id":644,
+                   "name":"6. Understanding the Hierarchical Injector.mp4"
+                },
+                {
+                   "id":645,
+                   "name":"7. How many Instances of Service Should It Be.mp4"
+                },
+                {
+                   "id":646,
+                   "name":"8. Injecting Services into Services.mp4"
+                },
+                {
+                   "id":647,
+                   "name":"9. Using Services for Cross-Component Communication.mp4"
+                },
+                {
+                   "id":648,
+                   "name":"9.1 services-final.zip"
+                }
+             ]
+          }
+       ]
+    }
+ ]

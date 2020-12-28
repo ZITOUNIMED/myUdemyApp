@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "myUdemyApp"
+  "defaultProject": "myUdemyApp",
+  "cli": {
+    "analytics": false
+  }
 }
