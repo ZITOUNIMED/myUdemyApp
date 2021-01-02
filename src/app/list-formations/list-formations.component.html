@@ -1,0 +1,9 @@
+<h2>Formations</h2>
+<div class="list-group" >
+    <a [ngClass]="{'active': activeName === formation.name}" 
+    (mouseover)="changeActiveItem(formation.name)" 
+    *ngFor="let formation of formations" 
+    class="list-group-item list-group-item-action"
+    [routerLink]="['/formation', formation.name]"
+    >{{formation.name}}</a>
+</div>

@@ -1,9 +1,6 @@
-<tree-root [nodes]="nodes" [options]="options"
-    (activate)="onEvent($event)">
-></tree-root>
-<div>
-    <video width="400" controls>
-        <source src="./home/mohamed/Downloads/video-16090939.mp4" type="video/mp4">
-        Your browser does not support HTML video.
-      </video>
-</div>
+<app-header></app-header>
+<main role="main" >
+    <div class="starter-template">
+        <router-outlet></router-outlet>
+    </div>
+</main>

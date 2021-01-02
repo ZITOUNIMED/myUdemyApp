@@ -1,0 +1,11 @@
+<div class="menu">
+	<tree-root [nodes]="children" [options]="options"
+		(activate)="selectNode($event)">
+		<ng-template #treeNodeTemplate let-node let-index="index">
+			<span *ngIf="node.data.ext === '.mp4'">
+				<input type="checkbox" id="exampleCheck1" (change)="checkboxChanged(node)" [checked]="node.data.checked"/>&nbsp;
+			</span>
+			<span>{{ node.data.name }}</span>
+		</ng-template>
+	</tree-root>
+<div>

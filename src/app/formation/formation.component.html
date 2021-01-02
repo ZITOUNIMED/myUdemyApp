@@ -1,0 +1,20 @@
+<div class="row" *ngIf="formation">
+    <div class="col-md-3">
+        <h3>{{formation.name}} 
+            <button class="btn" (click)="intOrResetFormation(formation)">
+                <i class="{{(formation.children && formation.children.length) ? 'fa fa-repeat' : 'fa fa-upload'}}" aria-hidden="true"></i>
+            </button>
+        </h3>
+        <div *ngIf="formation.children && formation.children.length">
+            <app-formation-menu [children]="formation.children"
+            (nodeCheckedChange)="nodeCheckedChanged($event)"
+            (videoPathChange)="videoPathChanged($event)"></app-formation-menu>
+        </div>
+    </div>
+    <div *ngIf="videoUrl">
+        <video width="900" height="550" controls>
+            <source [src]="videoUrl" type="video/mp4">
+                Your browser does not support HTML video.
+            </video>
+    </div>
+</div>

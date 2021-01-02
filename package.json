@@ -20,6 +20,8 @@
     "@angular/platform-browser-dynamic": "~11.0.3",
     "@angular/router": "~11.0.3",
     "@circlon/angular-tree-component": "^10.0.2",
+    "bootstrap": "^4.5.3",
+    "font-awesome": "^4.7.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
