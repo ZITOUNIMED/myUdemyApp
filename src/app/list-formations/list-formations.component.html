@@ -1,4 +1,8 @@
-<h2>Formations</h2>
+<h2>Formations 
+    <button class="btn" (click)="prepareFormations()">
+        <i class="fa fa-repeat" aria-hidden="true"></i>
+    </button>
+</h2>
 <div class="list-group" >
     <a [ngClass]="{'active': activeName === formation.name}" 
     (mouseover)="changeActiveItem(formation.name)" 

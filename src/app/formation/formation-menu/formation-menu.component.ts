@@ -8,7 +8,7 @@ import { NodeModel } from 'src/app/models/node.model';
 })
 export class FormationMenuComponent {
   @Input() children: NodeModel[];
-  @Output() videoPathChange = new EventEmitter<string>();
+  @Output() videoPathChange = new EventEmitter<{ videoName: string, path: string}>();
   @Output() nodeCheckedChange = new EventEmitter<{parent: string, child: string, checked: boolean}>();
   options: any;
 
@@ -26,7 +26,11 @@ export class FormationMenuComponent {
   selectNode($event){
     if ($event.node.data.ext === '.mp4'){
       const videoPath = this.getPath($event.node);
-      this.videoPathChange.emit(videoPath + '.mp4');
+	  const value = { 
+		videoName: $event.node.data.name, 
+		path: videoPath + '.mp4'
+	  };
+      this.videoPathChange.emit(value);
     }
     
   }

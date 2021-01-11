@@ -24,4 +24,11 @@ export class ListFormationsComponent implements OnInit {
     this.activeName = name;
   }
 
+  prepareFormations(){
+    this.formationService.prepareFormations()
+    .subscribe(formations => {
+      this.formations = formations;
+    });
+  }
+
 }

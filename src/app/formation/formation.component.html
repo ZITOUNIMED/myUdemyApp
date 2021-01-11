@@ -12,6 +12,7 @@
         </div>
     </div>
     <div *ngIf="videoUrl">
+		<h6>{{videoName}}</h6>
         <video width="900" height="550" controls>
             <source [src]="videoUrl" type="video/mp4">
                 Your browser does not support HTML video.

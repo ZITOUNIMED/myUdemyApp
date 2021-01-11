@@ -1,6 +1,6 @@
 import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
-import { Observable, observable } from "rxjs";
+import { Observable } from "rxjs";
 import { environment } from "src/environments/environment";
 import { NodeModel } from "../models/node.model";
 
@@ -8,13 +8,13 @@ import { NodeModel } from "../models/node.model";
     providedIn: 'root'
 })
 export class FormationService {
-   
+      
     url = environment.api + 'formations';
 
     constructor(private http: HttpClient){}
 
     getFormation(name: string): Observable<NodeModel> {
-        return this.http.get<NodeModel>(this.url + '/'+ name);
+        return this.http.get<NodeModel>(this.url + '/findByName/'+ name);
     }
 
     loadFormations() {
@@ -23,6 +23,10 @@ export class FormationService {
 
     intOrResetFormation(formationName: string): Observable<NodeModel>{
         return this.http.get<NodeModel>(this.url + '/initOrReset/'+formationName);
+    }
+
+    prepareFormations(): Observable<NodeModel[]>{
+        return this.http.get<NodeModel[]>(this.url + '/prepareFormations');
     }
 
     saveFormation(formation: NodeModel){

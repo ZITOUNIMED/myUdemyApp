@@ -12,6 +12,7 @@ import { VideosService } from '../services/videos.service';
 export class FormationComponent implements OnInit {
 
   videoUrl = '';
+  videoName = '';
   formation: NodeModel;
 
   constructor(private videoService: VideosService,
@@ -36,10 +37,12 @@ export class FormationComponent implements OnInit {
     }
   }
 
-  videoPathChanged($event){
+  videoPathChanged($event: { videoName: string, path: string}){
     this.videoUrl = '';
-    this.videoService.generateVideoUrl('/' + this.formation.name + $event).subscribe(res => {
+    this.videoService.generateVideoUrl('/' + this.formation.name + $event.path).subscribe(res => {
       this.videoUrl = res.url;
+	  
+	  this.videoName = $event.videoName;
     });
   }
 
