@@ -2,9 +2,15 @@
 	<tree-root [nodes]="children" [options]="options"
 		(activate)="selectNode($event)">
 		<ng-template #treeNodeTemplate let-node let-index="index">
-			<span *ngIf="node.data.ext === '.mp4'">
-				<input type="checkbox" id="exampleCheck1" (change)="checkboxChanged(node)" [checked]="node.data.checked"/>&nbsp;
+			<span [ngSwitch]="node.data.ext">
+				<span *ngSwitchCase="'.mp4'">
+					<input type="checkbox" id="exampleCheck1" (change)="checkboxChanged(node)" [checked]="node.data.checked"/>&nbsp;
+				</span>
+				<span *ngSwitchCase="'.html'">
+					<i class="fa fa-globe"></i>&nbsp;
+				</span>
 			</span>
+			
 			<span>{{ node.data.name }}</span>
 		</ng-template>
 	</tree-root>

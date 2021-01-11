@@ -1,4 +1,5 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { LoadNodeData } from 'src/app/models/load-node-data.model';
 import { NodeModel } from 'src/app/models/node.model';
 
 @Component({
@@ -8,8 +9,9 @@ import { NodeModel } from 'src/app/models/node.model';
 })
 export class FormationMenuComponent {
   @Input() children: NodeModel[];
-  @Output() videoPathChange = new EventEmitter<{ videoName: string, path: string}>();
+  @Output() nodeSelected = new EventEmitter<LoadNodeData>();
   @Output() nodeCheckedChange = new EventEmitter<{parent: string, child: string, checked: boolean}>();
+  
   options: any;
 
   constructor() { }
@@ -24,13 +26,23 @@ export class FormationMenuComponent {
   }
 
   selectNode($event){
-    if ($event.node.data.ext === '.mp4'){
-      const videoPath = this.getPath($event.node);
-	  const value = { 
-		videoName: $event.node.data.name, 
-		path: videoPath + '.mp4'
-	  };
-      this.videoPathChange.emit(value);
+    const ext = $event.node.data.ext;
+    if (ext === '.mp4'){
+      const path = this.getPath($event.node);
+      const value = { 
+        name: $event.node.data.name, 
+        path: path + '.mp4',
+        ext: '.mp4',
+      };
+      this.nodeSelected.emit(value);
+    } else if(ext === '.html'){
+      const path = this.getPath($event.node);
+      const value = { 
+        name: $event.node.data.name, 
+        path: path + '.html',
+        ext: '.html',
+      };
+      this.nodeSelected.emit(value);
     }
     
   }

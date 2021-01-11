@@ -8,14 +8,26 @@
         <div *ngIf="formation.children && formation.children.length">
             <app-formation-menu [children]="formation.children"
             (nodeCheckedChange)="nodeCheckedChanged($event)"
-            (videoPathChange)="videoPathChanged($event)"></app-formation-menu>
+            (nodeSelected)="nodeSelected($event)"></app-formation-menu>
         </div>
     </div>
-    <div *ngIf="videoUrl">
-		<h6>{{videoName}}</h6>
-        <video width="900" height="550" controls>
-            <source [src]="videoUrl" type="video/mp4">
-                Your browser does not support HTML video.
-            </video>
+    <div class="col-md-9">
+        <h6>{{nodeName}}</h6>
+        <ng-container *ngIf="selectedNodeData" [ngSwitch]="selectedNodeData.ext">
+            <ng-container *ngSwitchCase="'.mp4'">
+                <div *ngIf="videoUrl">
+            
+                    <video width="900" height="550" controls>
+                        <source [src]="videoUrl" type="video/mp4">
+                            Your browser does not support HTML video.
+                        </video>
+                </div>
+            </ng-container>
+            <ng-container *ngSwitchCase="'.html'">
+                <div [innerHtml]="fileContent"></div>
+            </ng-container>
+        </ng-container>
+        
+		
     </div>
 </div>

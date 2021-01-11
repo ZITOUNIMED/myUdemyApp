@@ -1,6 +1,8 @@
 import { Component, OnInit} from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { LoadNodeData } from '../models/load-node-data.model';
 import { NodeModel } from '../models/node.model';
+import { FilesService } from '../services/files.service';
 import { FormationService } from '../services/formation.service';
 import { VideosService } from '../services/videos.service';
 
@@ -11,13 +13,17 @@ import { VideosService } from '../services/videos.service';
 })
 export class FormationComponent implements OnInit {
 
+  selectedNodeData: LoadNodeData;
+
   videoUrl = '';
-  videoName = '';
+  nodeName = '';
   formation: NodeModel;
+  fileContent = '';
 
   constructor(private videoService: VideosService,
     private formationService: FormationService,
-    private activatedRoute: ActivatedRoute){}
+    private activatedRoute: ActivatedRoute,
+    private filesService: FilesService){}
 
   ngOnInit(){
     this.activatedRoute.data.subscribe(data => {
@@ -37,13 +43,31 @@ export class FormationComponent implements OnInit {
     }
   }
 
-  videoPathChanged($event: { videoName: string, path: string}){
+  nodeSelected($event: LoadNodeData){
+    const directory = '/' + this.formation.name + $event.path;
+    if(['.mp4', '.html'].some(ext => ext === $event.ext)){
+      this.reset();
+      this.nodeName = $event.name;
+      this.selectedNodeData = $event;
+      
+      if($event.ext === '.mp4'){
+        this.videoService.generateVideoUrl(directory).subscribe(res => {
+          this.videoUrl = res.url;
+        });
+      } else if($event.ext){
+        this.filesService.loadFileContent(directory).subscribe(res => {
+          this.fileContent = res.content;
+        });
+      }
+    }
+    
+    
+  }
+
+  private reset(){
+    this.selectedNodeData = null;
     this.videoUrl = '';
-    this.videoService.generateVideoUrl('/' + this.formation.name + $event.path).subscribe(res => {
-      this.videoUrl = res.url;
-	  
-	  this.videoName = $event.videoName;
-    });
+    this.fileContent = '';
   }
 
   intOrResetFormation(formation){

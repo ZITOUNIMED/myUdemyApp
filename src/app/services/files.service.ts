@@ -2,18 +2,17 @@ import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
 import { Observable } from "rxjs";
 import { environment } from "src/environments/environment";
-import { VideoToModel } from "../models/video.to.model";
 
 @Injectable({
     providedIn: 'root'
 })
-export class VideosService {
-    private url = environment.api+'videos';
+export class FilesService {
+    private url = environment.api+'files';
     constructor(private http: HttpClient){}
 
-    generateVideoUrl(directory: string): Observable<VideoToModel>{
-        return this.http.post<VideoToModel>(this.url, {
-            fileName: directory
+    loadFileContent(directory: string): Observable<{content: string}>{
+        return this.http.post<{content: string}>(this.url, {
+            directory: directory
         });
     }
 }
