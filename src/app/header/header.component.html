@@ -1,22 +1,22 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-    <a class="navbar-brand" href="/">My Udemy</a>
+    <a class="navbar-brand" routerLink="/">My Udemy</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item" [ngClass]="{active: activeLink === 'formations'}">
-          <a class="nav-link" routerLink="/formations" (click)="activeLink = 'formations'">Formations</a>
+        <li class="nav-item" routerActiveLink="active">
+          <a class="nav-link" routerLink="/formations">Formations</a>
         </li>
-        <li class="nav-item" [ngClass]="{active: activeLink === 'config'}">
-            <a class="nav-link" routerLink="/config" (click)="activeLink = 'config'">Config</a>
+        <li class="nav-item" routerActiveLink="active">
+            <a class="nav-link" routerLink="/config">Config</a>
         </li>
         
       </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
+      <!--<form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" name="searchInput" #searchInput placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit" (click)="onSearch()">Search</button>
+      </form>-->
     </div>
   </nav>

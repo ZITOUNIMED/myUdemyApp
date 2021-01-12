@@ -1,6 +1,8 @@
 <div class="">
-	<tree-root [nodes]="children" [options]="options"
-		(activate)="selectNode($event)">
+	<form (submit)="onSubmit()">
+		<input type="text" name="searchFormations" placeholder="Search" #searchInput/>
+	</form>
+	<tree-root [nodes]="childrenToDisplay" (activate)="selectNode($event)">
 		<ng-template #treeNodeTemplate let-node let-index="index">
 			<span [ngSwitch]="node.data.ext">
 				<span *ngSwitchCase="'.mp4'">

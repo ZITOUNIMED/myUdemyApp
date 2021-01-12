@@ -3,10 +3,13 @@
         <i class="fa fa-repeat" aria-hidden="true"></i>
     </button>
 </h2>
-<div class="list-group" >
+<form class="form-group line" (submit)="onSubmit()">
+    <input type="text" class="form-control" name="searchFormations" placeholder="Search formations" #searchInput/>
+</form>
+<div class="list-group line">
     <a [ngClass]="{'active': activeName === formation.name}" 
     (mouseover)="changeActiveItem(formation.name)" 
-    *ngFor="let formation of formations" 
+    *ngFor="let formation of formationsToDisplay" 
     class="list-group-item list-group-item-action"
     [routerLink]="['/formation', formation.name]"
     >{{formation.name}}</a>
